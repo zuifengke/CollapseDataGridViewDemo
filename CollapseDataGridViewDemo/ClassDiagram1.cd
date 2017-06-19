@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CollapseDataGridViewDemo.CollapseDataGridView">
+    <Position X="7.75" Y="1" Width="3.5" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Field Name="m_bIsFreezeGroupHeader" Hidden="true" />
+      <Field Name="m_bIsInit" Hidden="true" />
+      <Field Name="m_clrEven" Hidden="true" />
+      <Field Name="m_clrLastGroupColor" Hidden="true" />
+      <Field Name="m_clrOdd" Hidden="true" />
+      <Field Name="m_imgCollapse" Hidden="true" />
+      <Field Name="m_imgExpand" Hidden="true" />
+      <Field Name="m_nGroupCount" Hidden="true" />
+      <Field Name="m_nImageHeight" Hidden="true" />
+      <Field Name="m_nImageWidth" Hidden="true" />
+      <Field Name="m_nItemCount" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Delegate Name="CollapseDataGridViewDemo.CollapseDataGridView.GroupCountChangedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\CollapseDataGridView.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="CollapseDataGridViewDemo.CollapseDataGridView.BindDataDetailHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\CollapseDataGridView.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="CollapseDataGridViewDemo.CollapseDataGridView.RemoveGroupHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\CollapseDataGridView.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="CollapseDataGridViewDemo.CollapseDataGridView.AddGroupHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\CollapseDataGridView.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="CollapseDataGridViewDemo.CollapseDataGridView.AddItemHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\CollapseDataGridView.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="CollapseDataGridViewDemo.CollapseDataGridView.RemoveItemHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\CollapseDataGridView.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="CollapseDataGridViewDemo.CollapseDataGridView.DataCountChangedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\CollapseDataGridView.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QUAohAFBEyAIBACCMEGAACUCwIQwAiBFICGEAIhFAEA=</HashCode>
+      <FileName>Controls\CollapseDataGridView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollapseDataGridViewDemo.CollapseDataGridViewRow">
+    <Position X="4.25" Y="6.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AABACAAAAAAgBEACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\CollapseDataGridView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollapseDataGridViewDemo.CollapseDataGridViewRowCollection" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="1" Width="3.25" />
+    <Members>
+      <Field Name="m_list" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ACIAAAAAAAAAABAQCAAABAQABAAAAAAAAAAAAABQIAA=</HashCode>
+      <FileName>Controls\CollapseDataGridView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CollapseDataGridViewDemo.CollapseDataGridViewEventArgs">
+    <Position X="4.25" Y="4" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AQAIAAAAAAAAAAAAAEAAAAQAAAAAAAAIgAAAAAAAAAA=</HashCode>
+      <FileName>Controls\CollapseDataGridView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollapseDataGridViewDemo.Model.Athlete">
+    <Position X="2.5" Y="1" Width="1.5" />
+    <Members>
+      <Field Name="m_nHeight" Hidden="true" />
+      <Field Name="m_nWeight" Hidden="true" />
+      <Field Name="m_strCountry" Hidden="true" />
+      <Field Name="m_strGender" Hidden="true" />
+      <Field Name="m_strItem" Hidden="true" />
+      <Field Name="m_strName" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAABAAAAACAAAAAAAUEICIAAAAAQAAEAAAAQAA=</HashCode>
+      <FileName>Model\Athlete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollapseDataGridViewDemo.Model.AthleteItemList">
+    <Position X="0.75" Y="1" Width="1.5" />
+    <Members>
+      <Field Name="m_strBusNo" Hidden="true" />
+      <Field Name="m_strHotel" Hidden="true" />
+      <Field Name="m_strRestRoomNo" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="System.Collections.Generic.List&lt;T&gt;" ManuallyRouted="true">
+      <Path>
+        <Point X="2.125" Y="4.75" />
+        <Point X="2.125" Y="4.229" />
+        <Point X="1.5" Y="4.229" />
+        <Point X="1.5" Y="2.43" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAEQAAAEAAAAAAAAAAAAIAAAAAAgAAAAAABAAAAA=</HashCode>
+      <FileName>Model\Athlete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollapseDataGridViewDemo.Model.AthleteGroupList" Collapsed="true">
+    <Position X="2.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Athlete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.EventArgs" Collapsed="true">
+    <Position X="1" Y="5.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Collections.Generic.List&lt;T&gt;" Collapsed="true">
+    <Position X="1" Y="4.75" Width="2.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Windows.Forms.DataGridView" Collapsed="true">
+    <Position X="1" Y="9.25" Width="2.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Forms.DataGridViewRow" Collapsed="true">
+    <Position X="1" Y="8" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
